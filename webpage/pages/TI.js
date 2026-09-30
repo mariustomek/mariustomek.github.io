@@ -60,7 +60,8 @@ export default function Home() {
                     {plaintext("white", "Die Folien zur jeweiligen Übungsstunde werden hier nach der Stunde zur Verfügung gestellt.")}
                     {listBullet("white",
                         file("/files/TI_HS_26/slides_week01.pdf", "Folien Woche 1", "cyan-300"),
-                        "Folien Woche 2"
+                        file("/files/TI_HS_26/slides_week02.pdf", "Folien Woche 2", "cyan-300"),
+                        "Folien Woche 3"
                     )}
                     <br/>
                     <br/>
