@@ -61,15 +61,19 @@ export default function Home() {
                     {listBullet("white",
                         file("/files/TI_HS_26/slides_week01.pdf", "Folien Woche 1", "cyan-300"),
                         file("/files/TI_HS_26/slides_week02.pdf", "Folien Woche 2", "cyan-300"),
-                        "Folien Woche 3"
+                        "Folien Woche 3",
+                        file("/files/TI_HS_26/slides_week04.pdf", "Folien Woche 4", "cyan-300"),
                     )}
                     <br/>
                     <br/>
                     {subtitle("Zusatzmaterial")}
-                    {plaintext("white", "Im Verlaufe des Semesters werde ich zusätzliche Materialien hier bereitstellen.")}
-                    {/*listBullet("white",
+                    {/*plaintext("white", "Im Verlaufe des Semesters werde ich zusätzliche Materialien hier bereitstellen.")*/}
+                    {listBullet("white",
                         file("/files/TI_HS_26/Beweisideen101.pdf", "Beweisideen101 von Nicolas Wehrli", "cyan-300"),
-                    )*/}
+                        page("https://exams.vis.ethz.ch/user/emanuesk/document/midterm-destroyer", "Midterm Destroyer von Emanuel Skodinis", "cyan-300"),
+                        page("https://exams.vis.ethz.ch/user/emanuesk/document/endterm-destroyer", "Endterm Destroyer von Emanuel Skodinis", "cyan-300")
+                        
+                    )}
                     <br/>
                 </div>
                 </div>
