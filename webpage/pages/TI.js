@@ -67,6 +67,7 @@ export default function Home() {
                         file("/files/TI_HS_26/slides_week06.pdf", "Folien Woche 6", "cyan-300"),
                         file("/files/TI_HS_26/slides_week07.pdf", "Folien Woche 7", "cyan-300"),
                         "Folien Woche 8",
+                        file("/files/TI_HS_26/slides_week09.pdf", "Folien Woche 9", "cyan-300"),
                     )}
                     <br/>
                     <br/>
